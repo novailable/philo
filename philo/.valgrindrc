@@ -1,0 +1,7 @@
+--tool=helgrind
+--leak-check=full
+--show-leak-kinds=all
+--trace-children=yes
+--fair-sched=yes
+--tool=drd
+--tool=memcheck
